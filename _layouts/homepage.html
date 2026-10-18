@@ -50,15 +50,16 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        {% if site.affiliation_link %}<a href="{{ site.affiliation_link }}" rel="noopener">{% endif %}<autocolor>{{ site.affiliation }}</autocolor>{% if site.affiliation_link %}</a>{% endif %}
         <br>
         {% endif %}
         {% if site.email %}
-        <email>{{ site.email }}</email>
+        <email><a href="mailto:{{ site.email }}">{{ site.email }}</a></email>
         {% endif %}
 
         <br>
         <br>
+        {% if site.google_scholar or site.cv_link or site.github_link or site.linkedin or site.twitter %}
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
@@ -90,6 +91,7 @@
         </a>
         {% endif %}
         </div>
+        {% endif %}
         <br>
 
       </header>

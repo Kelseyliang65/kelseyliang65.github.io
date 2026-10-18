@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Selected Research</h2>
 
 <div class="publications">
 <ol class="bibliography">
@@ -7,17 +7,21 @@
 
 <li>
 <div class="pub-row">
+  {% if link.image %}
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
-    {% endif %}
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+  {% endif %}
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: {% if link.image %}20px{% else %}0{% endif %};">
+      <div class="title">{% if link.pdf or link.page %}<a href="{{ link.pdf | default: link.page }}">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}</div>
+      {% if link.authors %}
       <div class="author">{{ link.authors }}</div>
+      {% elsif link.collaborators %}
+      <div class="author">With {{ link.collaborators }}.</div>
+      {% endif %}
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
@@ -40,6 +44,9 @@
       {{ link.others }}
       {% endif %}
     </div>
+    {% if link.description %}
+    <p style="margin: 0.4rem 0 0;">{{ link.description }}</p>
+    {% endif %}
   </div>
 </div>
 </li>

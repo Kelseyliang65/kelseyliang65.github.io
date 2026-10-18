@@ -1,22 +1,17 @@
 main:
+  - title: "Sparse Updates Generalize Better Than Optimization: Stability Analysis for Randomized Subspace Descent"
+    collaborators: Yan Sun and Li Shen
+    conference: NeurIPS 2026
+    notes: Spotlight
+    description: Stability-based generalization guarantees for randomized subspace descent, covering gradient, coordinate, block, and subspace updates.
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Generalization Without Compression Penalty: A Stability Analysis of Error Feedback"
+    collaborators: Peng Wang, Yan Sun, Yingqi Liu, and Li Shen
+    conference: NeurIPS 2026
+    notes: Poster
+    description: An on-average stability analysis of error feedback in compressed and distributed learning, connecting EF-SGD with DiLoCo-EF.
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "Stability and Generalization of Push-Sum Based Decentralized Optimization over Directed Graphs"
+    collaborators: Yan Sun, Xiaochun Cao, and Li Shen
+    conference: Manuscript under review
+    description: Uniform-stability and excess-risk guarantees for Push-Sum-based decentralized optimization over directed graphs.
