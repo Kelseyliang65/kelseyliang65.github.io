@@ -56,6 +56,10 @@
         {% if site.email %}
         <email><a href="mailto:{{ site.email }}">{{ site.email }}</a></email>
         {% endif %}
+        {% if site.secondary_email %}
+        <br>
+        <email><a href="mailto:{{ site.secondary_email }}">{{ site.secondary_email }}</a></email>
+        {% endif %}
 
         <br>
         <br>

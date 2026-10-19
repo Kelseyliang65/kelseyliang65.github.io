@@ -3,6 +3,7 @@ title: Yifei Liang
 position: Ph.D. Student
 affiliation: Sun Yat-sen University & Shenzhen Loop Area Institute
 email: liangyf65@mail2.sysu.edu.cn
+secondary_email: yifeiliang@slai.edu.cn
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -22,7 +23,7 @@ twitter: false
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/yifei-liang.png
+avatar: ./assets/img/yifei-liang-portrait.png
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
