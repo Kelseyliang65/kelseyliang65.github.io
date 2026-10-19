@@ -26,5 +26,5 @@ I work on distributed learning, stochastic optimization, and machine learning th
 ## Honors and Awards
 
 - **2024 & 2023** · Excellent Student Scholarship, Second Prize, Sun Yat-sen University.
+- **2023** · Outstanding Volunteer, Guangzhou Marathon.
 - **2022** · Excellent Student Scholarship, First Prize, Sun Yat-sen University.
-- **Outstanding Volunteer** · Guangzhou Marathon.
