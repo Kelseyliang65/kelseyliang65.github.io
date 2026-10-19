@@ -22,8 +22,6 @@ My research focuses on statistical learning theory, particularly the stability a
   Ph.D. student in Cyberspace Security. Advisor: Li Shen.
 - **Sep. 2021 - Jun. 2025** · **Sun Yat-sen University**<br>
   Bachelor's degree in Mathematics and Applied Mathematics, Strengthening Foundation Class.
-- **Jul. 2024** · **Zhejiang University**<br>
-  Summer school participant, Qiushi International Mathematics Program.
 
 ## Honors and Awards
 
