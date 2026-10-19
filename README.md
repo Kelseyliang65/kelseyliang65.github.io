@@ -11,7 +11,7 @@ Website: https://kelseyliang65.github.io/
 - `_data/publications.yml`: research titles, collaborators, status, descriptions, and optional paper links.
 - `assets/img/`: profile photo and research images.
 
-GitHub Pages builds and publishes the site from the root of the `main` branch after each push. Photos and paper links will be added later. Original CV files and personal phone numbers are not included.
+GitHub Pages builds and publishes the site from the root of the `main` branch after each push.
 
 ## Local preview
 
