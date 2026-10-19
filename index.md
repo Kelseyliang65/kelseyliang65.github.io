@@ -6,7 +6,7 @@ layout: homepage
 
 Hi, I'm **Yifei Liang**, a Ph.D. student in cyberspace security at **Sun Yat-sen University**, advised by **Li Shen**. I'm also part of the joint AI training program with **Shenzhen Loop Area Institute**. I received my B.Sc. in Mathematics and Applied Mathematics from Sun Yat-sen University in 2025.
 
-I work on distributed learning, stochastic optimization, and machine learning theory. I'm especially interested in how training algorithms can use less communication while still converging efficiently and generalizing well. My work includes two papers at **NeurIPS**.
+I work on distributed learning, stochastic optimization, and machine learning theory. I'm especially interested in how training algorithms can use less communication while still converging efficiently and generalizing well. I have published two papers at top-tier AI conferences.
 
 ## Research Interests
 
