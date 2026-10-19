@@ -11,8 +11,8 @@ I work on distributed learning, stochastic optimization, and machine learning th
 ## Research Interests
 
 - **Statistical learning theory:** stability, generalization, and optimization.
-- **Optimization and distributed learning:** sparse updates, compression, and decentralized methods.
-- **Additional interests:** efficient deep learning, mathematical reasoning of large language models, AI for mathematics (AI4Math), and interpretability of large models.
+- **Communication-efficient learning:** efficient deep learning, sparse updates, compression, and decentralized optimization over directed graphs.
+- **Additional interests:** mathematical reasoning of large language models, AI for mathematics (AI4Math), and interpretability of large models.
 
 {% include_relative _includes/publications.md %}
 
